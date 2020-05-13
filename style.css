@@ -1,0 +1,89 @@
+body {
+  background-color: #d0e2f0;
+  font-family: "Poppins", sans-serif;
+}
+button {
+  font-family: "Poppins", sans-serif;
+}
+.calculadora {
+  width: 320px;
+  height: 520px;
+  border-radius: 8px;
+  background-color: #fcfcfc;
+  filter: drop-shadow(3px 3px 3px #aca7a7); /*Sombra na img*/
+  margin: 0 auto;
+  position: relative;
+  top: 30px;
+}
+.result {
+  height: 100px;
+  padding-bottom: 20px;
+}
+.history {
+  text-align: right;
+  height: 20px;
+  margin: 0 20px;
+  padding-top: 20px;
+  font-size: 15px;
+  color: #919191;
+}
+.output {
+  text-align: right;
+  height: 60px;
+  margin: 10px 20px;
+  font-size: 30px;
+}
+.operator,
+.number,
+.space {
+  width: 50px;
+  height: 50px;
+  margin: 15px;
+  float: left;
+  border-radius: 50%;
+  border-width: 0;
+  font-weight: 700;
+  font-size: 15px;
+}
+.number,
+.space {
+  background-color: #fcfcfc;
+}
+.number,
+.operator {
+  cursor: pointer;
+}
+.operator:active,
+.number:active {
+  font-size: 13px;
+}
+
+.operator:focus,
+.number:focus,
+.space:focus {
+  outline: 0;
+}
+button:nth-child(4) {
+  font-size: 20px;
+  background-color: #6660bd;
+}
+button:nth-child(8) {
+  font-size: 20px;
+  background-color: #5d8ee2;
+}
+button:nth-child(12) {
+  font-size: 20px;
+  background-color: #83ac9e;
+}
+button:nth-child(16) {
+  font-size: 20px;
+  background-color: #ffc710;
+}
+button:nth-child(20) {
+  font-size: 20px;
+  background-color: #b89ecc;
+}
+
+.keyboard {
+  height: 400px;
+}
